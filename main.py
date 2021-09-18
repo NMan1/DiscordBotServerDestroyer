@@ -14,4 +14,4 @@ async def on_ready():
 if __name__ == '__main__':
     client.load_extension("authority")
     client.load_extension("listener")
-    client.run('TOKEN HERE')
+    client.run("ODg4NzY1NTA1NTkzMzA3MTc2.YUXdYA.jAEjrBFTkMkpUTV5IFsDawwn96w")
